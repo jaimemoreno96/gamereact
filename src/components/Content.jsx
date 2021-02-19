@@ -25,6 +25,12 @@ const Content = ({ results }) => {
                     ))}
                 </tbody>
             </table>
+            <div className="row">
+                <button
+                    type="button"
+                    className="waves-effect waves-light btn-large btn-block yellow accent-4 col s12"
+                >Nuevo juego</button>
+            </div>
         </div>
     );
 }
